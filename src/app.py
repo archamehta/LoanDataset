@@ -14,7 +14,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
 # Load the dataset
-my_df = pd.read_csv("./App4/src/loan_data.csv")
+my_df = pd.read_csv("./src/loan_data.csv")
 
 # Get the categorical columns
 categorical_columns = my_df.select_dtypes(include=['object', 'category']).columns.tolist()
